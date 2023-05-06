@@ -1,0 +1,63 @@
+{
+  "name": "queueup",
+  "uuid": "3ddced57-16ec-45e8-b117-63e575c52317",
+  "lastMigration": 27,
+  "endpointPrefix": "",
+  "latency": 0,
+  "port": 3000,
+  "hostname": "",
+  "rootChildren": [
+    {
+      "type": "route",
+      "uuid": "790330ab-b10e-4875-b139-ed811cb94a9c"
+    }
+  ],
+  "folders": [],
+  "routes": [
+    {
+      "uuid": "790330ab-b10e-4875-b139-ed811cb94a9c",
+      "type": "http",
+      "documentation": "",
+      "method": "get",
+      "endpoint": "",
+      "responses": [
+        {
+          "uuid": "ec4a04f9-30df-4097-b6fe-7e4efcdaf7e3",
+          "body": "{{\r\n  \"name\": \"queueup\",\r\n  \"uuid\": \"3ddced57-16ec-45e8-b117-63e575c52317\",\r\n  \"lastMigration\": 27,\r\n  \"endpointPrefix\": \"\",\r\n  \"latency\": 0,\r\n  \"port\": 3000,\r\n  \"hostname\": \"\",\r\n  \"rootChildren\": [\r\n    {\r\n      \"type\": \"route\",\r\n      \"uuid\": \"790330ab-b10e-4875-b139-ed811cb94a9c\"\r\n    }\r\n  ],\r\n  \"folders\": [],\r\n  \"routes\": [\r\n    {\r\n      \"uuid\": \"790330ab-b10e-4875-b139-ed811cb94a9c\",\r\n      \"type\": \"http\",\r\n      \"documentation\": \"\",\r\n      \"method\": \"get\",\r\n      \"endpoint\": \"\",\r\n      \"responses\": [\r\n        {\r\n          \"uuid\": \"ec4a04f9-30df-4097-b6fe-7e4efcdaf7e3\",\r\n          \"body\": \"{}\",\r\n          \"latency\": 0,\r\n          \"statusCode\": 200,\r\n          \"label\": \"\",\r\n          \"headers\": [],\r\n          \"bodyType\": \"INLINE\",\r\n          \"filePath\": \"\",\r\n          \"databucketID\": \"\",\r\n          \"sendFileAsBody\": false,\r\n          \"rules\": [],\r\n          \"rulesOperator\": \"OR\",\r\n          \"disableTemplating\": false,\r\n          \"fallbackTo404\": false,\r\n          \"default\": true\r\n        }\r\n      ],\r\n      \"enabled\": true,\r\n      \"responseMode\": null\r\n    }\r\n  ],\r\n  \"proxyMode\": false,\r\n  \"proxyHost\": \"\",\r\n  \"proxyRemovePrefix\": false,\r\n  \"tlsOptions\": {\r\n    \"enabled\": false,\r\n    \"type\": \"CERT\",\r\n    \"pfxPath\": \"\",\r\n    \"certPath\": \"\",\r\n    \"keyPath\": \"\",\r\n    \"caPath\": \"\",\r\n    \"passphrase\": \"\"\r\n  },\r\n  \"cors\": true,\r\n  \"headers\": [],\r\n  \"proxyReqHeaders\": [],\r\n  \"proxyResHeaders\": [],\r\n  \"data\": []\r\n}}",
+          "latency": 0,
+          "statusCode": 200,
+          "label": "",
+          "headers": [],
+          "bodyType": "DATABUCKET",
+          "filePath": "C:\\Users\\2021 DELL\\Downloads\\RapicolaWeb-Aug20-2019-main\\RapicolaWeb-Aug20-2019-main\\composer.json",
+          "databucketID": "",
+          "sendFileAsBody": false,
+          "rules": [],
+          "rulesOperator": "OR",
+          "disableTemplating": false,
+          "fallbackTo404": false,
+          "default": true
+        }
+      ],
+      "enabled": true,
+      "responseMode": null
+    }
+  ],
+  "proxyMode": false,
+  "proxyHost": "",
+  "proxyRemovePrefix": false,
+  "tlsOptions": {
+    "enabled": false,
+    "type": "CERT",
+    "pfxPath": "",
+    "certPath": "",
+    "keyPath": "",
+    "caPath": "",
+    "passphrase": ""
+  },
+  "cors": true,
+  "headers": [],
+  "proxyReqHeaders": [],
+  "proxyResHeaders": [],
+  "data": []
+}
